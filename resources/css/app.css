@@ -1,0 +1,24 @@
+@import 'tailwindcss' source(none);
+
+/* Only scan the templates and scripts; nothing else in the project contains classes. */
+@source '../views';
+@source '../js';
+
+@theme {
+    --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    --font-sans--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    --font-display: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+    /* Ochre: the red earth of the outback, and the ginger of the dingo on the app icon. The brand colour. */
+    --color-ochre-50: #fbf6f1;
+    --color-ochre-100: #f5e8dc;
+    --color-ochre-200: #ebcfb5;
+    --color-ochre-300: #ddae85;
+    --color-ochre-400: #cd8857;
+    --color-ochre-500: #bb6c3b;
+    --color-ochre-600: #a2562e;
+    --color-ochre-700: #864428;
+    --color-ochre-800: #6d3825;
+    --color-ochre-900: #5a3022;
+    --color-ochre-950: #311710;
+}
